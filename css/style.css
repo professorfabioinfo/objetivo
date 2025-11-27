@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+    text-align:center;
+    color:blue;
+    font-size: 5vw;
+}
+
+h2{
+    text-align:Center;
+    color:blue;
+    /*font-size:4vw;*/
+}
+
+h3{
+    /*font-size: 3vw;*/
+    color:blue;
+}
+
+h4{
+    color: blue;
+}
+
+P{
+text-align: justify;
+}
+
+footer{
+text-align: Center;
+}
+
+body{
+    padding: 10px;
+    margin: 5%;
+}
+
+.none {
+  list-style-type:none;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  text-align: justify;
+  color: black;
+  width: 80%;
+}
+.modal-title{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.modal .modal-dialog { 
+    width: 60%;
+    }
+
+.modal {
+  text-align: center;
+  padding: 0;
+}
+
+.modal:before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
